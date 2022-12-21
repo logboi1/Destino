@@ -1,0 +1,69 @@
+.testimony-container{
+    display: flex;
+    padding: 0 40px;
+    margin-bottom: 50px;
+
+    .clients-box{
+        background: linear-gradient(rgba(0, 0, 0, 0.534),rgba(0, 0, 0, 0.466)), url(images/memmber.jpg);
+        width: 40%;
+        height: 550px;
+        border-radius: 20px 0px 0px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-position: center;
+        background-size: cover;
+
+        h3{
+            font-size: 3.4rem;
+            width: 390px;
+            color: white;
+            font-weight: 700;
+
+            span{
+                color: yellowgreen;
+            }
+        }
+        p{
+            font-size: 1.8rem;
+            width: 390px;
+            margin-top: 10px;
+            color: white;
+        }
+    }
+    .review-box{
+        width: 60%;
+        height: 550px;
+        background: linear-gradient(rgba(0, 0, 0, 0.747), rgba(0, 0, 0, 0.459)), url(images/wallpaper.jfif);
+        border-radius: 0 20px 20px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+
+        img{
+            width: 150px;
+            border-radius: 100px;
+            margin-top: -94px;
+        }
+        h3{
+            font-size: 3.4rem;
+            color: white;
+        }
+        h5{
+            font-size: 1.9rem;
+            font-weight: 500;
+            padding-top: 10px;
+            color: white;
+        }
+        p{
+            width: 450px;
+            text-align: center;
+            padding-top: 10px;
+            font-size: 1.4rem;
+            color: white;
+        }
+    }
+}

@@ -19,12 +19,15 @@
 }
 .left-container{
     width: 40%;
+    margin-left: -33px;
 }
 .contents-container{
     display: flex;
+    padding: 1px 33px;
 }
 .right-container{
     width: 40%;
+    margin-left: -43px;
 }
 
 .left-container ul li{

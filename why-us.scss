@@ -1,0 +1,72 @@
+@mixin grid($val){
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax($val, 1fr));
+    gap: 1.5rem;
+}
+
+
+.why-us-container{
+    background: linear-gradient(rgba(0, 0, 255, 0.534), rgba(0, 0, 0, 0.842)),url(images/Backgroundimage.png);
+    width: 100%;
+    height: fit-content;
+    background-position: center;
+    background-size: cover;
+    margin-top: 30px;
+    margin-bottom: 31px;
+    padding-bottom: 55px;
+}
+.why-us-container .text-container{
+    padding-top: 31px;
+}
+.why-us-container .text-container h3{
+    font-size: 5rem;
+    color: white;
+}
+.why-us-container .text-container p{
+    font-size: 1.7rem;
+    color: white;
+    width: 499;
+    margin-top: 21px;
+}
+.contents-container{
+    @include grid(33rem);
+    padding: 21px 41px;
+    text-align: center;
+    gap: 52px;
+
+    .box-container{
+        display: flex;
+        align-items: center;
+
+
+        i{
+            font-size: 31px;
+            width: 71px;
+            height: 53px;
+            border: solid 1px yellowgreen;
+            border-radius: 99px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: yellowgreen;
+
+            &:hover{
+                background: yellowgreen;
+                color: black;
+            }
+        }
+        .box{
+            text-align: left;
+            padding-left: 21px;
+
+            h3{
+                font-size: 2.2rem;
+                color: yellowgreen;
+            }
+            p{
+                font-size: 1.5rem;
+                color: white;
+            }
+        }
+    }
+}
