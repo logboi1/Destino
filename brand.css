@@ -1,0 +1,54 @@
+.brand{
+    width: 100%;
+    background: yellowgreen;
+    padding: 40px 140px;
+    margin-bottom: 10px;
+}
+.general_brand_image{
+    display: flex;
+    justify-content: space-between;
+}
+.about_section_container{
+    display: flex;
+    padding: 30px 90px;
+    justify-content: space-between;
+}
+.text_container h2{
+    font-size: 3rem;
+    width: 300px;
+}
+.text_container p{
+    width: 500px;
+    font-size: 1.4rem;
+    padding-top: 30px;
+}
+.text_container h5{
+    font-size: 1.6rem;
+    width: 500px;
+}
+.text_container ul{
+    margin-top: 30px;
+    padding-left: 5px;
+}
+ul li {
+    width: 500px;
+    font-size: 1.4rem;
+    padding: 5px 0;
+}
+.mission{
+    display: flex;
+    width: 65%;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+.mission h3{
+    font-size: 2.5rem;
+
+}
+hr{
+    border: 2px solid yellowgreen;
+    width: 50px;
+    height: 8px;
+    background-color: yellowgreen;
+}
