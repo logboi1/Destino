@@ -1,0 +1,153 @@
+.contact-container {
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background: rgb(3, 3, 63);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  gap: 1.5rem;
+  padding: 120px 60px;
+  text-align: center;
+  padding-bottom: 60px;
+}
+.contact-container .about-box {
+  text-align: left;
+}
+.contact-container .about-box h3 {
+  font-size: 2.4rem;
+  color: white;
+  margin-bottom: 30px;
+}
+.contact-container .about-box p {
+  color: white;
+  font-size: 1.7rem;
+  line-height: 22px;
+}
+.contact-container .about-box h4 {
+  font-size: 2.2rem;
+  color: white;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.contact-container .about-box .sending {
+  display: flex;
+  background: transparent;
+  align-items: center;
+}
+.contact-container .about-box .sending a {
+  width: 20%;
+  background: yellowgreen;
+  padding: 17px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 1.5px yellowgreen;
+  color: white;
+}
+.contact-container .about-box .sending a i {
+  color: white;
+}
+.contact-container .about-box .sending input {
+  background: transparent;
+  padding: 18px 0;
+  border: solid 2px yellowgreen;
+  width: 80%;
+  text-indent: 10px;
+  color: white;
+}
+.contact-container .about-box .sending input::-webkit-input-placeholder {
+  color: white;
+}
+.contact-container .quick-link {
+  text-align: left;
+  padding-left: 90px;
+}
+.contact-container .quick-link h3 {
+  font-size: 2.4rem;
+  color: white;
+  margin-bottom: 30px;
+}
+.contact-container .quick-link .links {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.contact-container .quick-link .links a {
+  font-size: 1.4rem;
+  color: white;
+  padding-top: 0;
+  padding-bottom: 25px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.contact-container .office-address {
+  text-align: left;
+}
+.contact-container .office-address h3 {
+  font-size: 2.4rem;
+  color: white;
+  margin-bottom: 30px;
+}
+.contact-container .office-address ul {
+  text-align: left;
+}
+.contact-container .office-address ul li {
+  font-size: 1.5rem;
+  color: white;
+  padding-top: 0;
+  padding-bottom: 23px;
+  width: 230px;
+  line-height: 30px;
+}
+.contact-container .business-info {
+  text-align: left;
+}
+.contact-container .business-info h3 {
+  font-size: 2.4rem;
+  color: white;
+  margin-bottom: 30px;
+}
+.contact-container .business-info p {
+  color: white;
+  font-size: 1.7rem;
+  line-height: 22px;
+  width: 300px;
+}
+.contact-container .business-info .time {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 30px;
+  padding-top: 32px;
+}
+.contact-container .business-info .time h4 {
+  font-size: 1.5rem;
+  color: white;
+}
+.contact-container .business-info hr {
+  width: 92%;
+  margin-top: 10px;
+  border: 0.5px solid rgb(211, 211, 211);
+  height: 0;
+  padding-right: 20px;
+  color: rgba(211, 211, 211, 0.411);
+}
+
+footer hr {
+  width: 100%;
+  height: 1px;
+  border: 1px solid;
+  border: 0.5px solid rgb(211, 211, 211);
+}
+footer .footer-contents {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 90px;
+  background: rgb(3, 3, 63);
+}
+footer .footer-contents p {
+  font-size: 1.4rem;
+  color: white;
+}/*# sourceMappingURL=contact.css.map */

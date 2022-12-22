@@ -1,0 +1,177 @@
+@mixin grid($val){
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax($val, 1fr));
+    gap: 1.5rem;
+}
+
+
+.contact-container{
+    width: 100%;
+    height: fit-content;
+    background: rgb(3, 3, 63);
+
+    @include grid(16rem);
+    padding: 120px 60px;
+    text-align: center;
+    padding-bottom: 60px;
+
+
+    .about-box{
+        text-align: left;
+
+        h3{
+            font-size: 2.4rem;
+            color: white;
+            margin-bottom: 30px;
+        }
+        p{
+            color: white;
+            font-size: 1.7rem;
+            line-height: 22px;
+        }
+
+        h4{
+            font-size: 2.2rem;
+            color: white;
+            margin-top: 30px;
+            margin-bottom: 20px;
+        }
+        .sending{
+            display: flex;
+            background: transparent;
+            align-items: center;
+
+            a{
+                width: 20%;
+                background: yellowgreen;
+                padding: 17px 30px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border: solid 1.5px yellowgreen;
+                color: white;
+
+                i{
+                    color: white;
+                }
+            }
+            input{
+                background: transparent;
+                padding: 18px 0;
+                border: solid 2px yellowgreen;
+                width: 80%;
+                text-indent: 10px;
+                color: white;
+    
+                &::-webkit-input-placeholder{
+                    color: white;
+                }
+            }
+        }
+    }
+
+    .quick-link{
+        text-align: left;
+        padding-left: 90px;
+
+        h3{
+            font-size: 2.4rem;
+            color: white;
+            margin-bottom: 30px;
+        }
+        .links{
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+
+
+            a{
+                font-size: 1.4rem;
+                color: white;
+                padding-top: 0;
+                padding-bottom: 25px;
+                width: fit-content;
+            }
+        }
+    }
+
+    .office-address{
+        text-align: left;
+        h3{
+            font-size: 2.4rem;
+            color: white;
+            margin-bottom: 30px;
+        }
+
+        ul{
+            text-align: left;
+
+            li{
+                font-size: 1.5rem;
+                color: white;
+                padding-top: 0;
+                padding-bottom: 23px;
+                width: 230px;
+                line-height: 30px;
+            }
+        }
+    }
+
+    .business-info{
+        text-align: left;
+        h3{
+            font-size: 2.4rem;
+            color: white;
+            margin-bottom: 30px;
+        }
+        p{
+            color: white;
+            font-size: 1.7rem;
+            line-height: 22px;
+            width: 300px;
+        }
+
+        .time{
+            display: flex;
+            justify-content: space-between;
+            padding-right: 30px;
+            padding-top: 32px;
+            h4{
+                font-size: 1.5rem;
+                color: white;
+            }
+        }
+        hr{
+            width: 92%;
+            margin-top: 10px;
+            border: 0.5px solid rgb(211, 211, 211);
+            height: 0;
+            padding-right: 20px;
+            color: rgba(211, 211, 211, 0.411);
+        }
+    }
+}
+
+footer{
+
+    hr{
+        width: 100%;
+        height: 1px;
+        border: 1px solid;
+        border: 0.5px solid rgb(211, 211, 211);
+
+    }
+
+    .footer-contents{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 90px;
+        background: rgb(3, 3, 63);
+
+        p{
+            font-size: 1.4rem;
+            color: white;
+        }
+    }
+}
