@@ -99,9 +99,11 @@
   color: white;
   padding-top: 0;
   padding-bottom: 23px;
+  width: 250px;
   line-height: 30px;
   text-align: left;
-  padding: 0;
+  padding-left: -50px;
+
 }
 .contact-container .business-info {
   text-align: left;
