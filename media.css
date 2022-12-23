@@ -217,6 +217,7 @@
     }
     .box-container{
         width: fit-content;
+        padding-left: 40px;
     }
 
     /* testimony container section design */
