@@ -273,7 +273,7 @@
 
     /*Office Section Design*/
     .office-address ul li{
-        padding-left: 0;
+        padding-left: -100px;
     }
 
 }
