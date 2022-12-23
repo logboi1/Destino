@@ -30,6 +30,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
   gap: 1.5rem;
+  padding: 21px 41px;
   text-align: center;
 }
 
@@ -98,4 +99,14 @@ li .text-container h3 {
 .contents-container i:hover {
   color: yellowgreen;
   background: black;
+}
+
+@media (max-width: 1250px) {
+  .contents-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+    gap: 1.5rem;
+    padding: 21px 41px;
+    text-align: center;
+  }
 }/*# sourceMappingURL=service.css.map */

@@ -29,7 +29,7 @@
 }
 .contents-container{
     @include grid(10rem);
-    // padding: 21px 41px;
+    padding: 21px 41px;
     text-align: center;
 }
 .right-container{
@@ -90,4 +90,14 @@ li .text-container h3{
 .contents-container i:hover{
     color: yellowgreen;
     background: black;
+}
+
+
+
+@media (max-width:1250px) {
+    .contents-container{
+        @include grid(10rem);
+        padding: 21px 41px;
+        text-align: center;
+    }
 }
