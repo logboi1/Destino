@@ -92,18 +92,15 @@
 }
 .contact-container .office-address ul {
   text-align: left;
-  padding-left: 0;
 }
 .contact-container .office-address ul li {
   font-size: 1.5rem;
   color: white;
   padding-top: 0;
   padding-bottom: 23px;
-  width: 250px;
+  width: 230px;
   line-height: 30px;
   text-align: left;
-  padding-left: -50px;
-
 }
 .contact-container .business-info {
   text-align: left;
