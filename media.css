@@ -201,7 +201,8 @@
     }
     .why-us-container .contents-container{
         max-width: 400px;
-        padding: 0;
+        padding: 0 ;
+        padding-left: 30px;
         margin: 0;
     }
     .why-us-container .contents-container .box-container i{
