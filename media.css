@@ -278,7 +278,7 @@
 
     /* footer section design */
     .footer-contents{
-        padding: 0 0;
+        padding: 0 -90px;
     }
 
 }
