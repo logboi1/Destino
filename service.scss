@@ -1,0 +1,104 @@
+@mixin grid($val){
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax($val, 1fr));
+    gap: 1.5rem;
+}
+
+.text-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+.text-container h2{
+    font-size: 5rem;
+    font-weight: 700;
+}
+.text-container h4{
+    font-size: 2rem;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+.contents-container{
+    margin-top: 30px;
+}
+.left-container{
+    width: 40%;
+    margin-left: -33px;
+}
+.contents-container{
+    @include grid(25rem);
+    padding: 21px 41px;
+    text-align: center;
+    gap: 42px;
+}
+.right-container{
+    width: 40%;
+    margin-left: -43px;
+}
+
+.left-container ul li{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    margin-top: 20px;
+    padding-left: 100px;
+}
+.left-container li i{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: 1px solid lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+li .text-container{
+    text-align: left;
+    width: 300px;
+    align-items: flex-start;
+}
+li .text-container h3{
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+.text-container p{
+    font-size: 1.4rem;
+}
+
+/* Right Container */
+.right-container li i{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: 1px solid lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right-container ul li{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    margin-top: 20px;
+}
+.contents-container i{
+    color: rgb(44, 44, 44);
+}
+.contents-container i:hover{
+    color: yellowgreen;
+    background: black;
+}
+
+
+
+@media (max-width:1250px) {
+    .contents-container{
+        @include grid(10rem);
+        padding: 21px 41px;
+        text-align: center;
+    }
+}

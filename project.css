@@ -11,7 +11,7 @@
 
 .project .box-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   gap: 1.5rem;
   padding: 21px 41px;
   text-align: center;

@@ -24,16 +24,17 @@
 }
 .text_container h5{
     font-size: 1.6rem;
-    width: 500px;
+    width: 300px;
 }
 .text_container ul{
     margin-top: 30px;
     padding-left: 5px;
 }
 ul li {
-    width: 500px;
+    width: 400px;
     font-size: 1.4rem;
     padding: 5px 0;
+    padding-left: 50px;
 }
 .mission{
     display: flex;
@@ -51,4 +52,30 @@ hr{
     width: 50px;
     height: 8px;
     background-color: yellowgreen;
+}
+
+
+
+
+
+
+@media (max-width:620px) {
+
+    .brand{
+        width: 100%;
+        background: yellowgreen;
+        padding: 40px 14px;
+        margin-bottom: 10px;
+    }
+    .general_brand_image{
+        gap: 20px;
+    }
+    .brandimages img{
+        width: 50px;
+    }
+
+    .about_section_container{
+        flex-direction: column-reverse;
+    }
+    
 }
