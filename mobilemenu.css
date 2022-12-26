@@ -66,7 +66,7 @@
     z-index: 1000;
     background-color: yellowgreen;
     padding-left: 70px;
-    text-align: center;
+    
   }
   .list-items{
     padding: 30px auto;
@@ -79,7 +79,7 @@
     padding: 0;
     gap: 30px;
     padding: 20px auto;
-    padding-left: 50px;
+    padding-left: 30px;
     right: 0;
   }
   
