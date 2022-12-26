@@ -18,7 +18,7 @@
 .nav-bar .nav-list{
   display: flex;
   justify-content: space-between;
-  width: 60%;
+  width: 100%;
   gap: 60px;
 }
 .nav-link{
@@ -66,12 +66,13 @@
     z-index: 1000;
     background-color: yellowgreen;
     padding-left: 70px;
-    width: 100vw;
+    text-align: center;
   }
   .list-items{
     padding: 30px auto;
     margin: 0;
     gap: 0;
+    width: 100px;
   }
   .nav-list.active{
     left: 0;
