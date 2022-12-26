@@ -18,7 +18,7 @@
 .nav-bar .nav-list{
   display: flex;
   justify-content: space-between;
-  width: 100%;
+  width: 60%;
   gap: 60px;
 }
 .nav-link{
@@ -67,6 +67,9 @@
     background-color: yellowgreen;
     padding-left: 70px;
     
+  }
+  .nav-bar .nav-list{
+    width: 100%;
   }
   .list-items{
     padding: 30px auto;
