@@ -13,6 +13,10 @@
 
 .why-us-container .text-container {
   padding-top: 31px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .why-us-container .text-container h3 {
@@ -29,7 +33,7 @@
 
 .contents-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(42rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(32rem, 1fr));
   gap: 1.5rem;
   padding: 21px 41px;
   text-align: center;

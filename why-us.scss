@@ -14,9 +14,14 @@
     margin-top: 30px;
     margin-bottom: 31px;
     padding-bottom: 55px;
+
 }
 .why-us-container .text-container{
     padding-top: 31px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 .why-us-container .text-container h3{
     font-size: 5rem;
@@ -29,7 +34,7 @@
     margin-top: 21px;
 }
 .contents-container{
-    @include grid(42rem);
+    @include grid(32rem);
     padding: 21px 41px;
     text-align: center;
     gap: 52px;

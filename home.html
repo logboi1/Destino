@@ -12,9 +12,11 @@
     <link rel="stylesheet" href="blog.css">
     <link rel="stylesheet" href="contact.css">
     <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="mobilemenu.css">
     <link rel="shortcut icon" href="images/sitelogo.jpeg" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    
     <script src="app.js" defer></script>
     <title>Car Detailing website</title>
 </head>
@@ -33,22 +35,35 @@
                     <a href="#"><i class="fab fa-linkedin"></i></a>
         </div>
     </header>
-    <nav>
-        <div class="logo">
-            <img src="images/sitelogo.jpeg" alt="">
-        </div>
-        <div class="menu">
-            <ul>
-                <a href="#">home</a>
-                <a href="#">About</a>
-                <a href="#">Service</a>
-                <a href="#">project</a>
-                <a href="#">blog</a>
-                <a href="#">Team</a>
-                <a href="#">contact</a>
+       <div class="header">
+        <nav class="nav-bar">
+            <a href="#" class="nav-logo"><img src="images/sitelogo.jpeg" alt=""></a>
+
+            <ul class="nav-list">
+                <li class="list-items">
+                    <a href="#" class="nav-link">Home</a>
+                </li>
+                <li class="list-items">
+                    <a href="#" class="nav-link">About</a>
+                </li>
+                <li class="list-items">
+                    <a href="#" class="nav-link">Portfolio</a>
+                </li>
+                <li class="list-items">
+                    <a href="#" class="nav-link">Service</a>
+                </li>
+                <li class="list-items">
+                    <a href="#" class="nav-link">Contact</a>
+                </li>
             </ul>
-        </div>
-    </nav>
+
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+       </div>
    <div class="general_slider">
     <div class="img_slide">
         <div class="slider active">
@@ -190,12 +205,12 @@
     </div>
    </section>
    <section class="service" id="service">
-    <div class="text-container">
+    <div class="service-text-container">
         <h2>The Services</h2>
         <h4>We Provide</h4>
     </div>
-    <div class="contents-container">
-        <div class="left-container">
+    <div class="service-contents-container">
+        <div class="service-left-container">
             <ul>
                 <li><i class="fa fa-industry"></i>
                 <div class="text-container">
@@ -230,10 +245,10 @@
                 </li>
             </ul>
         </div>
-        <div class="middle-container">
+        <div class="service-middle-container">
             <img src="images/man-center.png" alt="">
         </div>
-        <div class="right-container">
+        <div class="service-right-container">
             <ul>
                 <li><i class="fa fa-desktop"></i>
                 <div class="text-container">

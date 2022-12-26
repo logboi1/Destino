@@ -53,3 +53,14 @@ let repeat = function(activeClass){
     repeater();
 }
 repeat();
+
+
+
+//Nav Menu Mobile Fixing
+const hamburger =document.querySelector('.hamburger')
+const navBar =document.querySelector('.nav-list')
+
+hamburger.addEventListener('click', () =>{
+  hamburger.classList.toggle('active')
+  navBar.classList.toggle('active')
+})

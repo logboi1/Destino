@@ -1,12 +1,20 @@
 @media (max-width:820px) {
-    .menu{
-        display: none;
+
+    html{
+        font-size: 62%;
+    }
+    .menu ul a{
+        font-size: 900px;
+        padding: 0;
+        color: black;
     }
     header{
         display: none;
     }
     nav{
-        width: 90%;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
     }
 
 
@@ -32,21 +40,6 @@
 
 }
 @media (max-width:620px) {
-    .menu{
-        display: none;
-    }
-    header{
-        display: none;
-    }
-    nav{
-        width: 90%;
-    }
-    nav .logo{
-        padding-left: 10px;
-    }
-    nav .logo img{
-        width: 80px;
-    }
 
 
 
@@ -202,7 +195,7 @@
     .why-us-container .contents-container{
         max-width: 400px;
         padding: 0 ;
-        padding-left: 30px;
+        padding-left: 10px;
         margin: 0;
     }
     .why-us-container .contents-container .box-container i{
@@ -217,7 +210,7 @@
     }
     .box-container{
         width: fit-content;
-        padding-left: 40px;
+        padding-left: 20px;
     }
 
     /* testimony container section design */
@@ -273,7 +266,7 @@
 
     /*Office Section Design*/
     .office-address ul li{
-        padding-left: -200px;
+        /* margin-left: -45px; */
     }
 
     /* footer section design */
