@@ -1,14 +1,17 @@
-.text-container {
+.project .text-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   padding-bottom: 29px;
 }
-.text-container h3 {
+.project .text-container h3 {
   font-size: 4.5rem;
 }
-.text-container h5 {
+.project .text-container h5 {
   font-size: 2rem;
   font-weight: 300;
 }
-
 .project .box-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));

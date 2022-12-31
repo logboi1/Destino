@@ -150,10 +150,4 @@ footer .footer-contents {
 footer .footer-contents p {
   font-size: 1.4rem;
   color: white;
-}
-
-@media (max-width: 620px) {
-  footer .footer-contents {
-    padding: 0 10px;
-  }
 }/*# sourceMappingURL=contact.css.map */
